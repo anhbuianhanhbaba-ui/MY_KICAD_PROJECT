@@ -1,0 +1,382 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fd6ef0b1-201f-4377-afd7-d57558236c20")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 24.13 49.53)
+		(size 34.29 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "01ef9565-c356-4a23-a56e-0b1d382e5644")
+		(property "Sheetname" "COVER PAGE"
+			(at 24.13 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "COVER PAGE.kicad_sch"
+			(at 24.13 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_demo_project"
+				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 48.26)
+		(size 39.37 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "48cb74b7-6106-4562-964d-409377d66985")
+		(property "Sheetname" "POWER"
+			(at 166.37 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 166.37 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_demo_project"
+				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 81.28)
+		(size 34.29 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "91062a35-0f7c-41c7-b370-9fe4a63b1442")
+		(property "Sheetname" "MCU"
+			(at 25.4 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 25.4 105.9946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_demo_project"
+				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 48.26)
+		(size 39.37 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "92a251c9-9efd-4d73-9559-6643eb391aab")
+		(property "Sheetname" "BLOCK DIAGRAM"
+			(at 71.12 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLOCK DIAGRAM.kicad_sch"
+			(at 71.12 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_demo_project"
+				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 81.28)
+		(size 33.02 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bd4f8c4f-5d4d-4af0-bc9a-09e0d8b47729")
+		(property "Sheetname" "eMMC"
+			(at 71.12 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eMMC.kicad_sch"
+			(at 71.12 105.9946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_demo_project"
+				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 80.01)
+		(size 45.72 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c835816e-1973-4d2e-8e3c-056579a3af3c")
+		(property "Sheetname" "ISO_UART"
+			(at 161.29 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ISO_UART.kicad_sch"
+			(at 161.29 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_demo_project"
+				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 48.26)
+		(size 34.29 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f77ac3c5-9c7d-497c-a81d-5a715379590e")
+		(property "Sheetname" "INDEX"
+			(at 121.92 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INDEX.kicad_sch"
+			(at 121.92 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_demo_project"
+				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 81.28)
+		(size 33.02 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ffb5e6c4-1fa4-4caf-ac3e-9f527994d6d0")
+		(property "Sheetname" "AVR"
+			(at 116.84 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AVR.kicad_sch"
+			(at 116.84 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_demo_project"
+				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
