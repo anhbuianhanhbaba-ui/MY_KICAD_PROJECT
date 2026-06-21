@@ -3,6 +3,884 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "688937a7-0667-4e28-a0d3-6210b6a70f9b")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 293.878 140.716 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "0007a793-f224-4975-9ea4-cfe5a98111d2")
+	)
+	(text "Title"
+		(exclude_from_sim no)
+		(at 180.086 100.076 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 4.572 4.572)
+			)
+			(justify left bottom)
+		)
+		(uuid "06206848-64b5-4590-a83a-b6e18bac9efc")
+	)
+	(text "10"
+		(exclude_from_sim no)
+		(at 61.214 178.562 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b6a4a29-ecf1-4d34-98c6-b7a8233c17af")
+	)
+	(text "18"
+		(exclude_from_sim no)
+		(at 171.958 163.576 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e9f6e91-6425-4eab-947a-81d602c3528b")
+	)
+	(text "21"
+		(exclude_from_sim no)
+		(at 286.258 110.236 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "118d0a21-96b6-430d-ae7c-826b8120fc38")
+	)
+	(text "15"
+		(exclude_from_sim no)
+		(at 171.958 140.716 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "13fc1bf9-07b1-4ac2-867c-1e50b5d96cf4")
+	)
+	(text "17"
+		(exclude_from_sim no)
+		(at 171.958 155.956 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "1806a435-3d7c-4470-a9b7-989ba843f256")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 179.578 110.236 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "1965f64a-4c13-4eec-88f0-5fbfe402aa9b")
+	)
+	(text "28"
+		(exclude_from_sim no)
+		(at 286.258 163.576 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c7a2b44-c896-47f9-b017-e063168dd80f")
+	)
+	(text "23"
+		(exclude_from_sim no)
+		(at 286.258 125.476 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "202ba23d-7727-4f68-81e8-a4e4e4305f29")
+	)
+	(text "Page"
+		(exclude_from_sim no)
+		(at 156.464 99.822 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 4.572 4.572)
+			)
+			(justify left bottom)
+		)
+		(uuid "2232139a-c089-4df1-a8bc-c279984a0149")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 61.214 140.462 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "233410a3-130c-42ee-b1a7-22f0b19c4f49")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 293.878 110.236 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "26dcaa96-2cfc-4ffb-95a3-d68eebbdeb5e")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 61.214 109.982 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "28686935-9d44-4040-8109-46eee8c04fca")
+	)
+	(text "Page"
+		(exclude_from_sim no)
+		(at 269.494 98.552 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 4.572 4.572)
+			)
+			(justify left bottom)
+		)
+		(uuid "29d62da1-8347-487f-9989-2abbb5680881")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 61.214 117.602 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a1314e8-beb1-4579-a147-877e58d2a0f7")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 69.088 140.716 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "2de99379-e5c7-422e-9c03-2bd8cf3a0fd6")
+	)
+	(text "AVR"
+		(exclude_from_sim no)
+		(at 69.088 155.956 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ffef20f-32d3-4578-8938-bf19ab8a4b1e")
+	)
+	(text "11"
+		(exclude_from_sim no)
+		(at 171.958 110.236 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "331516a7-6d13-44d8-a025-8a055e038706")
+	)
+	(text "12"
+		(exclude_from_sim no)
+		(at 171.958 117.856 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "4146525b-1bbb-4b80-bd8f-f2db38d0113b")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 293.878 133.096 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "4168c292-44d9-41dc-9a91-b260cacb5494")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 179.578 171.196 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "44fe44b4-c1b1-474e-a7dd-fcd2119a075d")
+	)
+	(text "........."
+		(exclude_from_sim no)
+		(at 270.002 101.6 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "4558a834-2c71-4288-882f-d443854036a4")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 61.214 125.222 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "470ec551-5a3c-4249-af79-46b66485d3ed")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 179.578 163.576 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "4956f455-2a22-4055-b138-ba108f3daad8")
+	)
+	(text "26"
+		(exclude_from_sim no)
+		(at 286.258 148.336 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c53ca6d-dd77-4a29-bff6-1c8c4d981079")
+	)
+	(text "22"
+		(exclude_from_sim no)
+		(at 286.258 117.856 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ea85c51-526a-421c-8e34-0c9aa1ea000c")
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 171.958 171.196 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "50006634-0bd8-4008-96e2-7eff45e9f908")
+	)
+	(text "25"
+		(exclude_from_sim no)
+		(at 286.258 140.716 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "513dd603-698f-4b61-93a7-fa496ecf1851")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 286.258 155.956 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "55b74f8b-48c9-4502-9157-3d73da08371a")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 61.214 155.702 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "64152266-90cb-4a0d-8bd9-4433e031d48d")
+	)
+	(text "........."
+		(exclude_from_sim no)
+		(at 180.086 102.616 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "695f1d65-3399-400f-816c-d1f050dbdef6")
+	)
+	(text "Page"
+		(exclude_from_sim no)
+		(at 45.974 99.822 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 4.572 4.572)
+			)
+			(justify left bottom)
+		)
+		(uuid "73becf25-a3b7-4b98-8c03-14a9e44cb641")
+	)
+	(text "INDEX"
+		(exclude_from_sim no)
+		(at 68.834 125.222 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "7715ee09-5895-4bd2-a93c-502fa68d0e67")
+	)
+	(text "POWER"
+		(exclude_from_sim no)
+		(at 69.088 133.096 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ab7e384-281b-46e9-bc98-89652e91ef27")
+	)
+	(text "24"
+		(exclude_from_sim no)
+		(at 286.258 133.096 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d0024bd-e612-4dc0-a890-128b93e590a5")
+	)
+	(text "........."
+		(exclude_from_sim no)
+		(at 46.482 102.87 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d249807-0eaa-4319-a18a-fafe737233fa")
+	)
+	(text "INDEX"
+		(exclude_from_sim no)
+		(at 61.214 65.532 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8396e73f-7b69-41b1-9f08-3c11cdc6b9dd")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 179.578 125.476 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "83d631b9-cc22-40d4-a0b5-931a5dc4d6b7")
+	)
+	(text "29"
+		(exclude_from_sim no)
+		(at 286.258 171.196 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "8613b53a-b61a-4528-9fba-fbb9194f59f6")
+	)
+	(text "........."
+		(exclude_from_sim no)
+		(at 156.972 102.87 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "8693e697-e5e4-43ff-aa30-6da79d7d250e")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 171.704 132.842 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "886364dd-67d1-44f9-be1c-55a16c7413ac")
+	)
+	(text "COVER PAGE"
+		(exclude_from_sim no)
+		(at 68.834 109.982 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "88c03128-63f4-4040-9007-ddfbea16faef")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 293.878 163.576 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b3032bf-5014-45bf-84ff-2ee60ce7c9f2")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 293.878 125.476 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "988e7c16-1550-4fa5-845c-2922ff11b957")
+	)
+	(text "eMMC"
+		(exclude_from_sim no)
+		(at 69.088 148.336 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a1dd8c9-aee2-44a6-964d-0c7e440ace10")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 293.878 178.816 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "a37a9083-4638-4378-a251-aa47031cfba9")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 61.214 170.942 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "a573c13e-ed24-4353-848f-ca8aa0ab6c36")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 61.214 163.322 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "a87ed9fd-a3d7-4e79-b706-b2c7f7b459f9")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 293.878 117.856 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac3dd6e5-a743-4c51-9232-7df0f8c627a5")
+	)
+	(text "BLOCK DIAGRAM"
+		(exclude_from_sim no)
+		(at 68.834 117.602 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "af72c5cd-50d1-435e-8568-d37d293d4f99")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 68.834 170.942 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1018697-c45b-483e-ae05-92686adb04be")
+	)
+	(text "20"
+		(exclude_from_sim no)
+		(at 171.958 178.816 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8c97b14-1ce8-4fba-bf1f-7c4590f8eb16")
+	)
+	(text "30"
+		(exclude_from_sim no)
+		(at 286.258 178.816 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcfa7430-5603-4cfd-86eb-65954c6b98e8")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 293.878 148.336 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "c09dd1ef-04e9-49d1-9e16-4aaa66677f7a")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 179.578 117.856 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3f1f1b3-428e-4419-ab4a-dc6dc7386bca")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 293.878 171.196 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5fe925a-5882-4a83-8aae-a4b2625655b0")
+	)
+	(text "Title"
+		(exclude_from_sim no)
+		(at 69.596 100.076 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 4.572 4.572)
+			)
+			(justify left bottom)
+		)
+		(uuid "c67b930c-89a6-4265-a4f0-63ee14d848ea")
+	)
+	(text "ISO UART"
+		(exclude_from_sim no)
+		(at 69.088 163.576 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "c91e2bb0-bc5a-4075-9c10-a674fd63a68b")
+	)
+	(text "Title"
+		(exclude_from_sim no)
+		(at 293.116 98.806 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 4.572 4.572)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfd917ba-b6cf-4461-b077-5a5ce8d68d0c")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 179.578 155.956 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0fd5fdc-e4c4-45e7-9f54-7c435ae1080a")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 293.878 155.956 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1a5e271-4c9d-43ec-8276-195b885835fe")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 179.578 140.716 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7e6415a-3baf-4f4c-ba42-3c082e8c01e1")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 179.578 148.336 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "e393df4d-51a5-4f3c-98ae-e7c75f5a01c0")
+	)
+	(text "16"
+		(exclude_from_sim no)
+		(at 171.958 148.336 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "e43a8803-8544-4e8c-bfe0-389045552f76")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 179.578 178.816 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4a072db-f433-4cd0-a93a-c1352c3c0cf0")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 61.214 132.842 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6244e8b-09cc-42f0-ac38-52d67335605a")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 61.214 148.082 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8aa1489-332d-47b3-8734-4e4667a0953c")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 68.834 178.562 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb0feffc-0411-47ef-8227-2ea94a674a6f")
+	)
+	(text "........."
+		(exclude_from_sim no)
+		(at 293.116 101.346 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecebcb1e-caeb-46da-ae09-8126fc3d64b3")
+	)
+	(text "............................................"
+		(exclude_from_sim no)
+		(at 179.578 133.096 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef68fc82-e66c-4038-a6e8-f33d4166588f")
+	)
+	(text "13"
+		(exclude_from_sim no)
+		(at 171.958 125.476 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify right bottom)
+		)
+		(uuid "f98f680d-1907-4588-9b94-0ce7d0b999f6")
+	)
+	(text "........."
+		(exclude_from_sim no)
+		(at 69.596 102.616 0)
+		(effects
+			(font
+				(face "Arial Rounded MT Bold")
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdf89d27-dc24-44ad-943f-e7ba46e60839")
+	)
 )

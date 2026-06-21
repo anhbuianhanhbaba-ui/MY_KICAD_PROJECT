@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "e8c12bbb-f02c-43f4-afac-2f31f6a1cfd6")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "AUSB:ATMEGA324PA"
 			(exclude_from_sim no)
@@ -3370,10 +3370,6 @@
 		(uuid "59609e95-60ef-4fc0-a11a-f904a58f11b2")
 	)
 	(no_connect
-		(at 59.69 139.7)
-		(uuid "66fab79d-347a-427a-97f5-005d0dbabc85")
-	)
-	(no_connect
 		(at 59.69 93.98)
 		(uuid "68047d10-ff5c-41c9-89b1-b4b1bb5d3ee5")
 	)
@@ -4431,6 +4427,26 @@
 		)
 		(uuid "4de5ccda-9420-4d96-8675-5ea91064bd16")
 	)
+	(label "NTC1-"
+		(at 49.53 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e466b82-acc9-4716-82d2-6badc2446430")
+	)
+	(label "NTC1+"
+		(at 50.8 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ca2c830-29d7-4f94-a4bd-81bf44168aff")
+	)
 	(label "AVR_JTAG_TDO"
 		(at 173.99 53.34 0)
 		(effects
@@ -4551,6 +4567,30 @@
 		)
 		(uuid "fb5fd89d-6c32-467d-9455-74d7e72ec968")
 	)
+	(global_label "RESET"
+		(shape input)
+		(at 59.69 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32a201bc-c1a9-4706-88ca-c6c3617ac6d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.9597 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "AVR_ISO_UART0_RX"
 		(shape input)
 		(at 55.88 116.84 180)
@@ -4612,6 +4652,30 @@
 		(uuid "e5fbddd5-c401-469a-b8f5-93cdeacc8f31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.752 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 173.99 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6b984fa-44f3-49d5-9e6f-aab664261d6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.2597 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
