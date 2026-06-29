@@ -10,8 +10,10 @@
 		(at 293.878 140.716 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -22,8 +24,10 @@
 		(at 180.086 100.076 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 4.572 4.572)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -34,8 +38,10 @@
 		(at 61.214 178.562 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -46,8 +52,10 @@
 		(at 171.958 163.576 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -58,8 +66,10 @@
 		(at 286.258 110.236 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -70,8 +80,10 @@
 		(at 171.958 140.716 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -82,8 +94,10 @@
 		(at 171.958 155.956 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -94,8 +108,10 @@
 		(at 179.578 110.236 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -106,8 +122,10 @@
 		(at 286.258 163.576 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -118,8 +136,10 @@
 		(at 286.258 125.476 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -130,8 +150,10 @@
 		(at 156.464 99.822 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 4.572 4.572)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -142,8 +164,10 @@
 		(at 61.214 140.462 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -154,8 +178,10 @@
 		(at 293.878 110.236 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -166,8 +192,10 @@
 		(at 61.214 109.982 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -178,8 +206,10 @@
 		(at 269.494 98.552 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 4.572 4.572)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -190,8 +220,10 @@
 		(at 61.214 117.602 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -202,8 +234,10 @@
 		(at 69.088 140.716 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -214,8 +248,10 @@
 		(at 69.088 155.956 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -226,8 +262,10 @@
 		(at 171.958 110.236 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -238,8 +276,10 @@
 		(at 171.958 117.856 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -250,8 +290,10 @@
 		(at 293.878 133.096 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -262,8 +304,10 @@
 		(at 179.578 171.196 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -274,8 +318,10 @@
 		(at 270.002 101.6 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -286,8 +332,10 @@
 		(at 61.214 125.222 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -298,8 +346,10 @@
 		(at 179.578 163.576 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -310,8 +360,10 @@
 		(at 286.258 148.336 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -322,8 +374,10 @@
 		(at 286.258 117.856 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -334,8 +388,10 @@
 		(at 171.958 171.196 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -346,8 +402,10 @@
 		(at 286.258 140.716 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -358,8 +416,10 @@
 		(at 286.258 155.956 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -370,8 +430,10 @@
 		(at 61.214 155.702 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -382,8 +444,10 @@
 		(at 180.086 102.616 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -394,8 +458,10 @@
 		(at 45.974 99.822 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 4.572 4.572)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -406,8 +472,10 @@
 		(at 68.834 125.222 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -418,8 +486,10 @@
 		(at 69.088 133.096 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -430,8 +500,10 @@
 		(at 286.258 133.096 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -442,8 +514,10 @@
 		(at 46.482 102.87 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -454,10 +528,11 @@
 		(at 61.214 65.532 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 7.62 7.62)
 				(thickness 1.524)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -468,8 +543,10 @@
 		(at 179.578 125.476 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -480,8 +557,10 @@
 		(at 286.258 171.196 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -492,8 +571,10 @@
 		(at 156.972 102.87 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -504,8 +585,10 @@
 		(at 171.704 132.842 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -516,8 +599,10 @@
 		(at 68.834 109.982 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -528,8 +613,10 @@
 		(at 293.878 163.576 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -540,8 +627,10 @@
 		(at 293.878 125.476 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -552,8 +641,10 @@
 		(at 69.088 148.336 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -564,8 +655,10 @@
 		(at 293.878 178.816 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -576,8 +669,10 @@
 		(at 61.214 170.942 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -588,8 +683,10 @@
 		(at 61.214 163.322 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -600,8 +697,10 @@
 		(at 293.878 117.856 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -612,8 +711,10 @@
 		(at 68.834 117.602 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -624,8 +725,10 @@
 		(at 68.834 170.942 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -636,8 +739,10 @@
 		(at 171.958 178.816 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -648,8 +753,10 @@
 		(at 286.258 178.816 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -660,8 +767,10 @@
 		(at 293.878 148.336 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -672,8 +781,10 @@
 		(at 179.578 117.856 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -684,8 +795,10 @@
 		(at 293.878 171.196 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -696,8 +809,10 @@
 		(at 69.596 100.076 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 4.572 4.572)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -708,8 +823,10 @@
 		(at 69.088 163.576 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -720,8 +837,10 @@
 		(at 293.116 98.806 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 4.572 4.572)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -732,8 +851,10 @@
 		(at 179.578 155.956 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -744,8 +865,10 @@
 		(at 293.878 155.956 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -756,8 +879,10 @@
 		(at 179.578 140.716 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -768,8 +893,10 @@
 		(at 179.578 148.336 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -780,8 +907,10 @@
 		(at 171.958 148.336 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -792,8 +921,10 @@
 		(at 179.578 178.816 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -804,8 +935,10 @@
 		(at 61.214 132.842 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -816,8 +949,10 @@
 		(at 61.214 148.082 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -828,8 +963,10 @@
 		(at 68.834 178.562 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -840,8 +977,10 @@
 		(at 293.116 101.346 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -852,8 +991,10 @@
 		(at 179.578 133.096 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -864,8 +1005,10 @@
 		(at 171.958 125.476 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -876,8 +1019,10 @@
 		(at 69.596 102.616 0)
 		(effects
 			(font
-				(face "Arial Rounded MT Bold")
+				(face "Times New Roman")
 				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)

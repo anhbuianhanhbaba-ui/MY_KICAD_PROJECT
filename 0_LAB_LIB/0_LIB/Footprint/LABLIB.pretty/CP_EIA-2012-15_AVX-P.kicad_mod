@@ -1,0 +1,186 @@
+(footprint "CP_EIA-2012-15_AVX-P"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC-7352 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf)")
+	(tags "capacitor tantalum")
+	(property "Reference" "REF**"
+		(at 0.092437 -1.905266 0)
+		(layer "F.SilkS")
+		(uuid "a0245253-400a-497c-bca2-d8aa82b3cd74")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "4.7uF"
+		(at 0 1.58 0)
+		(layer "F.Fab")
+		(uuid "f2cf3049-dd03-49af-9412-c1ab7a64fd03")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8168dc51-4af2-468a-b101-53239b4b4156")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Polarized capacitor, US symbol"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87008903-98c8-4509-b1fa-ed0575df6eb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property ki_fp_filters "CP_*")
+	(sheetname "/MCU/")
+	(sheetfile "MCU.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.72 -0.805)
+		(end -1.72 0.805)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "115596dd-fe88-4140-9a3e-edc7c6d958f0")
+	)
+	(fp_line
+		(start -1.72 0.805)
+		(end 1 0.805)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "112552eb-03de-4b58-9450-61fcd31bc1cd")
+	)
+	(fp_line
+		(start 1 -0.805)
+		(end -1.72 -0.805)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb36694d-1796-4342-813d-8d019a3f469f")
+	)
+	(fp_rect
+		(start -1.71 -0.88)
+		(end 1.71 0.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7af1ebdb-f263-4b50-879e-0c134ddf5563")
+	)
+	(fp_line
+		(start -1 -0.3125)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab0c3d7a-0402-45c5-8a8c-45884fead25f")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "832a923f-9685-479f-b1d3-dbd05943a972")
+	)
+	(fp_line
+		(start -0.6875 -0.625)
+		(end -1 -0.3125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e482aa9-1b1a-41ef-b059-60e3dc0108b1")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end -0.6875 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4db408b2-08ba-4e19-8875-1483996a247e")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3a0786b-8999-471b-850f-1fceaa3c710d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b92aa59a-0b4e-40b8-a29c-3d0e2230240d")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.89 0)
+		(size 1.14 1.09)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.229358)
+		(uuid "49573528-f8eb-48ae-a4ee-2a3f83124e7f")
+	)
+	(pad "2" smd roundrect
+		(at 0.89 0)
+		(size 1.14 1.09)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.229358)
+		(uuid "03dffd88-48f5-4af4-909d-157151766748")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-2012-15_AVX-P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

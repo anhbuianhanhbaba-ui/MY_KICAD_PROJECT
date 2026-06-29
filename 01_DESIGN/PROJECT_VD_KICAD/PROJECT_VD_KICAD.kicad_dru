@@ -1,0 +1,5 @@
+(version 1)
+(rule "eMMC bottom 0.3mm"
+  (condition "A.NetClass == 'eMMC'")
+  (layer "B.Cu")
+  (constraint track_width (opt 0.3mm) (min 0.3mm)))

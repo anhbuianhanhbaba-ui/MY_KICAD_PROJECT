@@ -12,17 +12,21 @@
 		(comment 3 "THẦY BÙI QUỐC BẢO")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_B_Micro"
+		(symbol "LABLIB:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016)
+				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -5.08 11.43 0)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -32,8 +36,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "USB_B_Micro"
-				(at -5.08 8.89 0)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -44,7 +48,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 3.81 -1.27 0)
+				(at 0 1.524 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -55,7 +59,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 3.81 -1.27 0)
+				(at 0 1.524 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -65,7 +69,7 @@
 					)
 				)
 			)
-			(property "Description" "USB Micro Type B connector"
+			(property "Description" "Single-cell battery"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -76,7 +80,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "connector USB micro"
+			(property "Sim.Device" "V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -87,7 +91,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "USB*Micro*B*"
+			(property "Sim.Type" "DC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -98,35 +102,32 @@
 					)
 				)
 			)
-			(symbol "USB_B_Micro_0_1"
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
 				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
-						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
-					)
+					(start -2.286 1.778)
+					(end 2.286 1.524)
 					(stroke
 						(width 0)
 						(type default)
@@ -135,11 +136,11 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center -3.81 2.159)
-					(radius 0.635)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -148,7 +149,31 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
 					)
 					(stroke
 						(width 0.254)
@@ -160,111 +185,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
+						(xy 1.27 3.556) (xy 1.27 2.54)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 2.159) (xy 0.635 2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.635 3.429)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.127 -7.62)
-					(end 0.127 -6.858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.254 1.27)
-					(end -0.508 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 5.08 4.953)
-					(end 4.318 5.207)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -0.127)
-					(end 4.318 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -2.667)
-					(end 4.318 -2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 -5.207)
-					(end 4.318 -4.953)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -272,11 +196,11 @@
 					)
 				)
 			)
-			(symbol "USB_B_Micro_1_1"
-				(pin power_out line
-					(at 7.62 5.08 180)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
 					(length 2.54)
-					(name "VBUS"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -291,10 +215,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 7.62 -2.54 180)
+				(pin passive line
+					(at 0 -2.54 90)
 					(length 2.54)
-					(name "D-"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -309,17 +233,136 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "D+"
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LABLIB:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -328,52 +371,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "ID"
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -384,7 +391,187 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x08"
+		(symbol "LABLIB:C_Polarized_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_US"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LABLIB:Conn_01x08"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -716,566 +903,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.524 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "DC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Polarized_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_US"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized capacitor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Crystal_GND24"
+		(symbol "LABLIB:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1558,7 +1186,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "LABLIB:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1698,7 +1326,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_ST_STM32H7:STM32H745ZITx"
+		(symbol "LABLIB:STM32H745ZITx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5350,7 +4978,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DPST_x2"
+		(symbol "LABLIB:SW_DPST_x2"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -5528,6 +5156,378 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LABLIB:USB_B_Micro"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -5.08 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB_B_Micro"
+				(at -5.08 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB Micro Type B connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector USB micro"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "USB*Micro*B*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_B_Micro_0_1"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
+						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.81 2.159)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 2.159) (xy 0.635 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.635 3.429)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.127 -7.62)
+					(end 0.127 -6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 1.27)
+					(end -0.508 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 4.953)
+					(end 4.318 5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -0.127)
+					(end 4.318 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -2.667)
+					(end 4.318 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -5.207)
+					(end 4.318 -4.953)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_B_Micro_1_1"
+				(pin power_out line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5931,6 +5931,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Between USB30 USB50"
 		(exclude_from_sim no)
@@ -6059,6 +6174,12 @@
 		(uuid "25bcd290-52a6-4319-aeac-c3ef821588f1")
 	)
 	(junction
+		(at 63.5 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26439f0c-4173-4ab7-9c31-fe722c78227a")
+	)
+	(junction
 		(at 337.82 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6119,6 +6240,12 @@
 		(uuid "45130aa2-4c75-41f9-bce6-020eba27350e")
 	)
 	(junction
+		(at 101.6 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "457f7d7f-27ae-4887-a7c1-eb6eaeb920af")
+	)
+	(junction
 		(at 266.7 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6149,6 +6276,12 @@
 		(uuid "58ead084-9537-4b47-b7ca-a5b2db79f72c")
 	)
 	(junction
+		(at 66.04 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a9e324c-be11-46ce-8dbe-15876c189245")
+	)
+	(junction
 		(at 334.01 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6167,10 +6300,22 @@
 		(uuid "6be93e77-4511-4458-b808-7d2b385c2b18")
 	)
 	(junction
+		(at 67.31 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78272694-06c0-4ed4-a133-bde2f6dab5bb")
+	)
+	(junction
 		(at 241.3 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ba5553b-45b7-40de-be58-e930d17c70bf")
+	)
+	(junction
+		(at 99.06 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80e9e8f1-723c-466c-8af3-2ac59edf6822")
 	)
 	(junction
 		(at 254 19.05)
@@ -6249,12 +6394,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae3a111b-bd68-4924-af7e-9851495cc765")
-	)
-	(junction
-		(at 66.04 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4330676-2813-4f4a-865f-b731d799564a")
 	)
 	(junction
 		(at 191.77 33.02)
@@ -6970,6 +7109,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 63.5) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f82499-29d9-4f64-9379-b3b71e1708e8")
+	)
+	(wire
+		(pts
 			(xy 166.37 19.05) (xy 179.07 19.05)
 		)
 		(stroke
@@ -7208,6 +7357,16 @@
 		)
 		(uuid "3449b097-fcae-4a84-b1cd-bbe300d422cd")
 	)
+	(wire
+		(pts
+			(xy 63.5 62.23) (xy 63.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35968c2e-4a0f-4b34-8b12-c8e7bf2aa0d1")
+	)
 	(polyline
 		(pts
 			(xy 369.57 12.7) (xy 360.68 12.7)
@@ -7250,7 +7409,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.02 49.53) (xy 160.02 77.47)
+			(xy 161.29 49.53) (xy 161.29 77.47)
 		)
 		(stroke
 			(width 0.381)
@@ -7297,6 +7456,26 @@
 			(type default)
 		)
 		(uuid "3f278ba2-6414-4b71-a914-414d663e4830")
+	)
+	(wire
+		(pts
+			(xy 67.31 64.77) (xy 66.04 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6fbeda-a945-43e9-b89e-5ca904660d6d")
+	)
+	(wire
+		(pts
+			(xy 101.6 63.5) (xy 101.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd0525f-fd6f-4100-9ffa-e2958ee235bc")
 	)
 	(polyline
 		(pts
@@ -7620,6 +7799,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 64.77) (xy 68.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5512802b-dd78-44a4-a4fd-e674db1329b3")
+	)
+	(wire
+		(pts
 			(xy 66.04 64.77) (xy 66.04 66.04)
 		)
 		(stroke
@@ -7708,16 +7897,6 @@
 		)
 		(uuid "5b8b8c89-a62e-4e20-b85d-d1ed65c4e7d5")
 	)
-	(wire
-		(pts
-			(xy 66.04 64.77) (xy 68.58 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bf2bd8b-3851-4c5e-bee2-3a94de3dae71")
-	)
 	(polyline
 		(pts
 			(xy 314.96 12.7) (xy 314.96 45.72)
@@ -7800,7 +7979,7 @@
 	)
 	(polyline
 		(pts
-			(xy 161.29 77.47) (xy 160.02 77.47)
+			(xy 161.29 77.47) (xy 161.29 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8090,6 +8269,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 64.77) (xy 64.77 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f47ebd-20e7-4565-ae9a-5c64bd298d72")
+	)
+	(wire
+		(pts
 			(xy 204.47 29.21) (xy 204.47 33.02)
 		)
 		(stroke
@@ -8160,7 +8349,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.02 49.53) (xy 220.98 49.53)
+			(xy 161.29 49.53) (xy 220.98 49.53)
 		)
 		(stroke
 			(width 0.381)
@@ -8680,7 +8869,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 60.96) (xy 63.5 66.04)
+			(xy 63.5 60.96) (xy 63.5 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8810,7 +8999,7 @@
 	)
 	(polyline
 		(pts
-			(xy 289.56 49.53) (xy 289.56 77.47)
+			(xy 289.56 46.99) (xy 289.56 77.47)
 		)
 		(stroke
 			(width 0.381)
@@ -8867,6 +9056,16 @@
 			(type default)
 		)
 		(uuid "f542baee-4c0c-419f-8df5-c4e20e7b9e3d")
+	)
+	(wire
+		(pts
+			(xy 99.06 63.5) (xy 99.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57e3884-e323-4942-b57d-7833326895b1")
 	)
 	(polyline
 		(pts
@@ -8958,6 +9157,16 @@
 		)
 		(uuid "0a888cac-ae27-48b5-85d7-e4b73fc5622c")
 	)
+	(label "VDD33USB"
+		(at 99.06 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13cc5b8d-a8bd-4435-b59c-19d00168fb62")
+	)
 	(label "MCU_VCAP2"
 		(at 34.29 203.2 0)
 		(effects
@@ -9028,6 +9237,16 @@
 		)
 		(uuid "48498569-a064-4b5d-ae04-42499f6958eb")
 	)
+	(label "VDD33USB"
+		(at 241.3 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "484ca8ad-b093-4830-b069-0038600d1424")
+	)
 	(label "MCU_JTAG_nRESET"
 		(at 27.94 76.2 0)
 		(effects
@@ -9047,6 +9266,16 @@
 			(justify left bottom)
 		)
 		(uuid "4f88c7a3-3433-4328-a73e-fb802e18355b")
+	)
+	(label "VDD50USB"
+		(at 101.6 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53e0ee6a-1c44-42c6-8d37-553208fcabfd")
 	)
 	(label "USB_2.0_D_N"
 		(at 135.89 147.32 0)
@@ -9107,6 +9336,16 @@
 			(justify left bottom)
 		)
 		(uuid "7cef56bb-ef9d-482c-ab09-16e272c710a2")
+	)
+	(label "VDD50USB"
+		(at 266.7 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85e33c35-8acd-4188-a455-1e32d9590d8d")
 	)
 	(label "MCU_JTAG_TDO"
 		(at 132.08 127 0)
@@ -9235,30 +9474,6 @@
 		(uuid "27f03a0a-44f7-42b8-bc94-910288859b4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.4326 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VDD33USB"
-		(shape input)
-		(at 99.06 66.04 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "438d09e8-4e6e-4349-9864-8697e9ef74d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 53.1972 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9462,80 +9677,8 @@
 			)
 		)
 	)
-	(global_label "VDD33USB"
-		(shape input)
-		(at 241.3 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dd8da969-ca9f-428c-a298-7ffb389dfa2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.4572 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VDD50USB"
-		(shape input)
-		(at 101.6 66.04 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "efda4029-c061-4918-b166-ebf14834c57a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6 53.1972 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VDD50USB"
-		(shape input)
-		(at 266.7 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f776c477-01bf-44b0-a2bb-9dfb7acc47b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.8572 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
+		(lib_id "LABLIB:C_Polarized_US")
 		(at 148.59 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -9608,7 +9751,7 @@
 			(uuid "a5cfa83a-c747-410e-80fe-0ff64bc6a4fb")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C17")
 					(unit 1)
@@ -9617,7 +9760,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 254 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -9689,7 +9832,7 @@
 			(uuid "a7ae7a63-c9e9-4c31-9977-437b7378c1f7")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C12")
 					(unit 1)
@@ -9698,7 +9841,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 346.71 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -9771,7 +9914,7 @@
 			(uuid "1ad8c7e2-f976-41f6-816d-605b160ec23a")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C34")
 					(unit 1)
@@ -9780,7 +9923,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_B_Micro")
+		(lib_id "LABLIB:USB_B_Micro")
 		(at 191.77 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -9863,7 +10006,7 @@
 			(uuid "89c7f70b-02c7-414e-83ed-c5f4f83091cd")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "J3")
 					(unit 1)
@@ -9941,7 +10084,7 @@
 			(uuid "d229ede5-5a39-493b-aa6f-3d7e01da0caf")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR020")
 					(unit 1)
@@ -9950,7 +10093,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 182.88 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -10022,9 +10165,86 @@
 			(uuid "814dbc42-d971-42d4-8bc1-30f54d7b97ef")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1054556d-7baf-4186-bc0c-191e4a921f50")
+		(property "Reference" "#PWR014"
+			(at 99.06 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 98.552 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e417d8f-c01b-4bf2-ab42-2a199a090621")
+		)
+		(instances
+			(project "PROJECT_VD_KICAD"
+				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10099,7 +10319,7 @@
 			(uuid "c0e063c5-ca50-4cb2-8526-ede1172dea3e")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR031")
 					(unit 1)
@@ -10108,7 +10328,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 228.6 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -10180,7 +10400,7 @@
 			(uuid "83a42224-24d7-4bdc-8c42-7a0c7acfccd6")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C10")
 					(unit 1)
@@ -10189,7 +10409,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 106.68 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -10261,7 +10481,7 @@
 			(uuid "0faaaefe-5fb3-4c89-bb90-531c5302bde3")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C19")
 					(unit 1)
@@ -10339,7 +10559,7 @@
 			(uuid "dfd68ab1-39af-4a29-913d-5fd900b36a5e")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR012")
 					(unit 1)
@@ -10418,7 +10638,7 @@
 			(uuid "9682317f-2525-45b8-99e0-fdf357646aeb")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR027")
 					(unit 1)
@@ -10427,7 +10647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 322.58 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -10500,9 +10720,88 @@
 			(uuid "b3cd9ed7-1b10-4ef7-a6d3-7ea4be82ef83")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63.5 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26377666-b5dd-4713-bb78-d25bfac1654e")
+		(property "Reference" "#FLG02"
+			(at 61.595 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 59.69 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "124e2352-1907-4929-8de1-55c7f67e49fd")
+		)
+		(instances
+			(project "PROJECT_VD_KICAD"
+				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -10578,7 +10877,7 @@
 			(uuid "1380b01e-0c36-4e44-a088-75cec166eeed")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR039")
 					(unit 1)
@@ -10587,7 +10886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_ST_STM32H7:STM32H745ZITx")
+		(lib_id "LABLIB:STM32H745ZITx")
 		(at 88.9 160.02 0)
 		(unit 1)
 		(body_style 1)
@@ -11087,7 +11386,7 @@
 			(uuid "d140a794-80e8-4bb1-ac22-e4a51dfc860e")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "U3")
 					(unit 1)
@@ -11096,7 +11395,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DPST_x2")
+		(lib_id "LABLIB:SW_DPST_x2")
 		(at 271.78 101.6 90)
 		(unit 1)
 		(body_style 1)
@@ -11175,7 +11474,7 @@
 			(uuid "d6652dec-8fb3-42e9-8b46-4cb6058acaf6")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "SW1")
 					(unit 1)
@@ -11184,7 +11483,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 208.28 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -11256,7 +11555,7 @@
 			(uuid "513f6935-3bfa-48d0-a8c4-c0969235ec02")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C24")
 					(unit 1)
@@ -11334,7 +11633,7 @@
 			(uuid "53124dcd-f7c3-45d2-a681-276269d2843b")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR042")
 					(unit 1)
@@ -11411,7 +11710,7 @@
 			(uuid "b431334a-b94c-4e46-b1b8-454d267d090a")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR015")
 					(unit 1)
@@ -11421,7 +11720,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 66.04 64.77 0)
+		(at 64.77 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11429,10 +11728,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "40b718d4-e231-4ef5-a477-4fbc181f4e54")
 		(property "Reference" "#PWR011"
-			(at 66.04 68.58 0)
+			(at 64.77 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11443,7 +11741,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 66.04 59.69 0)
+			(at 65.278 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11453,7 +11751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 64.77 0)
+			(at 64.77 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11464,7 +11762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 64.77 0)
+			(at 64.77 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11475,7 +11773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 66.04 64.77 0)
+			(at 64.77 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11489,7 +11787,7 @@
 			(uuid "1116575a-412e-4dc6-9c21-ec0b8a0037bd")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR011")
 					(unit 1)
@@ -11567,7 +11865,7 @@
 			(uuid "5879ba68-fbff-4e0b-9817-a9ddd1f94182")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR022")
 					(unit 1)
@@ -11646,7 +11944,7 @@
 			(uuid "f2b32070-9f84-4e9c-ae01-cddfe9e195c9")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR040")
 					(unit 1)
@@ -11655,7 +11953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 295.91 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -11728,7 +12026,7 @@
 			(uuid "6d5d0820-72d5-4eea-ad05-1f7385c5abc9")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C27")
 					(unit 1)
@@ -11807,7 +12105,7 @@
 			(uuid "eceb6685-d795-4c1d-ae7e-27bef55c9cf7")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR041")
 					(unit 1)
@@ -11816,7 +12114,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
+		(lib_id "LABLIB:C_Polarized_US")
 		(at 170.18 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -11889,7 +12187,7 @@
 			(uuid "ec11c57e-ae5a-467d-a468-e970724a21f3")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C21")
 					(unit 1)
@@ -11966,7 +12264,7 @@
 			(uuid "b127720f-db7a-4033-b08b-12b0ca49c98d")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR038")
 					(unit 1)
@@ -12044,7 +12342,7 @@
 			(uuid "9dc7d395-d38b-46f0-b945-17d541be87fc")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR029")
 					(unit 1)
@@ -12053,7 +12351,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 290.83 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -12125,7 +12423,7 @@
 			(uuid "55d9ed06-010b-413e-9061-28ed0d550353")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C15")
 					(unit 1)
@@ -12134,7 +12432,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 215.9 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -12206,7 +12504,7 @@
 			(uuid "1d153c24-003d-4d78-b16c-9ce914302e1a")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C9")
 					(unit 1)
@@ -12215,7 +12513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
+		(lib_id "LABLIB:Battery_Cell")
 		(at 63.5 55.88 180)
 		(unit 1)
 		(body_style 1)
@@ -12247,7 +12545,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_3002_1x2032"
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1060_1x2032"
 			(at 63.5 57.404 90)
 			(hide yes)
 			(show_name no)
@@ -12320,7 +12618,7 @@
 			(uuid "d9d24b91-da40-439f-b8e6-a982c6663dec")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "BT1")
 					(unit 1)
@@ -12329,7 +12627,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 132.08 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -12401,7 +12699,7 @@
 			(uuid "bdc281f4-6753-44e4-9f4b-ae3e2700c92d")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C20")
 					(unit 1)
@@ -12479,7 +12777,7 @@
 			(uuid "8d94bd28-e303-4408-9d36-33cbff3b99e1")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR030")
 					(unit 1)
@@ -12488,7 +12786,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 270.51 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -12560,7 +12858,7 @@
 			(uuid "85b24deb-4f2c-464b-9714-fe6eda3ea7e3")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C26")
 					(unit 1)
@@ -12638,7 +12936,7 @@
 			(uuid "2c01be23-8491-45cd-bb3e-26dc4af10250")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR019")
 					(unit 1)
@@ -12716,7 +13014,7 @@
 			(uuid "7afa1fa3-09ee-4b7d-a8bd-2923483c9f2f")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR021")
 					(unit 1)
@@ -12725,7 +13023,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 241.3 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -12797,7 +13095,7 @@
 			(uuid "3ed7c780-b7de-4962-88cc-1e22c6da624b")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C11")
 					(unit 1)
@@ -12875,7 +13173,7 @@
 			(uuid "d3ace71e-4238-4237-bcd8-c62b84701503")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR043")
 					(unit 1)
@@ -12954,7 +13252,7 @@
 			(uuid "8f1a69f9-3886-4b4e-a9d2-93f7da36b1cb")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR037")
 					(unit 1)
@@ -12963,7 +13261,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 266.7 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -13035,7 +13333,7 @@
 			(uuid "0f0d6e1c-4f77-4eaf-93a3-3f77f4c8605b")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C13")
 					(unit 1)
@@ -13112,7 +13410,7 @@
 			(uuid "6d92be1e-dda5-4393-9342-2f70f5baa060")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR018")
 					(unit 1)
@@ -13121,7 +13419,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 279.4 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -13193,7 +13491,7 @@
 			(uuid "e4262795-223a-4785-8ee8-15e22cdbd511")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C14")
 					(unit 1)
@@ -13202,7 +13500,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 285.75 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -13274,7 +13572,7 @@
 			(uuid "85947f03-6621-48f9-bd16-4f144bd95844")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C32")
 					(unit 1)
@@ -13352,7 +13650,7 @@
 			(uuid "14b36128-251e-4df7-9fe1-d67633a7b7c6")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR036")
 					(unit 1)
@@ -13361,7 +13659,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 80.01 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -13433,7 +13731,7 @@
 			(uuid "b3df411d-bed9-4824-b514-251a02734a75")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C18")
 					(unit 1)
@@ -13442,7 +13740,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 331.47 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -13515,7 +13813,7 @@
 			(uuid "2a98af08-22b0-486b-8e79-1157d7b0be11")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C29")
 					(unit 1)
@@ -13593,7 +13891,7 @@
 			(uuid "9ad7c5f4-deb7-4093-98c2-51bda51a3b40")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR026")
 					(unit 1)
@@ -13671,7 +13969,7 @@
 			(uuid "001624e0-7c0c-4bcd-ad64-45e402c4cf8e")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR088")
 					(unit 1)
@@ -13680,7 +13978,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 345.44 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -13753,7 +14051,7 @@
 			(uuid "6eeb9b12-d280-4aaa-abd6-bb2eecfdc0ca")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C30")
 					(unit 1)
@@ -13762,7 +14060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
+		(lib_id "LABLIB:Conn_01x08")
 		(at 222.25 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -13853,7 +14151,7 @@
 			(uuid "eea72dd8-9ec3-45ea-820f-8c089a4741f5")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "J4")
 					(unit 1)
@@ -13931,7 +14229,7 @@
 			(uuid "f4b3ed9d-7318-4ed3-984c-94c64bd43510")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR028")
 					(unit 1)
@@ -14008,7 +14306,7 @@
 			(uuid "6a23d4c6-03e4-4710-9721-b2351103af64")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR032")
 					(unit 1)
@@ -14017,7 +14315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 166.37 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -14089,7 +14387,7 @@
 			(uuid "61aeb727-14cd-4ea5-94ac-7021586849b8")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C5")
 					(unit 1)
@@ -14167,7 +14465,7 @@
 			(uuid "99ec3a1e-d90d-4412-bea0-c2b17a3d370b")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR025")
 					(unit 1)
@@ -14176,7 +14474,84 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "power:PWR_FLAG")
+		(at 67.31 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba3f8e12-1106-4137-8307-e012ab3110e1")
+		(property "Reference" "#FLG05"
+			(at 67.31 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 73.66 62.738 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 67.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9b8996a-6272-49db-8f40-d7e1b39072da")
+		)
+		(instances
+			(project "PROJECT_VD_KICAD"
+				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LABLIB:C")
 		(at 195.58 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -14248,7 +14623,7 @@
 			(uuid "f8023c51-6ba3-48d9-9415-f546cc50ff94")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C23")
 					(unit 1)
@@ -14325,9 +14700,86 @@
 			(uuid "8ba0eaab-2bbf-4f3e-86bd-5c9a068d1b9e")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 101.6 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb39eb6a-a764-4148-a7a5-511544a27ce1")
+		(property "Reference" "#FLG06"
+			(at 101.6 61.595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 106.68 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 101.6 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76e87490-6729-4d28-b1d6-e809a185251a")
+		)
+		(instances
+			(project "PROJECT_VD_KICAD"
+				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -14403,7 +14855,7 @@
 			(uuid "48f448ea-7d34-448e-8397-ade9ec6286a5")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR024")
 					(unit 1)
@@ -14412,7 +14864,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "LABLIB:R")
 		(at 285.75 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -14485,7 +14937,7 @@
 			(uuid "16d6d833-4142-46d8-b803-e7693eddeaec")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "R3")
 					(unit 1)
@@ -14494,7 +14946,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "LABLIB:R")
 		(at 26.67 93.98 270)
 		(unit 1)
 		(body_style 1)
@@ -14564,7 +15016,7 @@
 			(uuid "24c248f4-433d-406b-9041-1999e4f90ec6")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "R5")
 					(unit 1)
@@ -14573,7 +15025,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 309.88 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -14646,7 +15098,7 @@
 			(uuid "62dea073-2856-4876-bb76-e62d66b50475")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C28")
 					(unit 1)
@@ -14655,7 +15107,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 245.11 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -14727,7 +15179,7 @@
 			(uuid "d44ace9b-18de-4542-a4c6-1e2bc0bc8c79")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C25")
 					(unit 1)
@@ -14736,7 +15188,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 179.07 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -14808,7 +15260,7 @@
 			(uuid "9bb65863-f6b0-4831-be99-ab35c32adb93")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C6")
 					(unit 1)
@@ -14885,7 +15337,7 @@
 			(uuid "0a740e33-5f6a-40b7-8a7f-64b480eb0630")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR035")
 					(unit 1)
@@ -14894,7 +15346,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND24")
+		(lib_id "LABLIB:Crystal_GND24")
 		(at 334.01 29.21 0)
 		(unit 1)
 		(body_style 1)
@@ -14993,7 +15445,7 @@
 			(uuid "c54b5b01-a023-4757-9035-a00c53232ba3")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "Y1")
 					(unit 1)
@@ -15002,7 +15454,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 191.77 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -15074,7 +15526,7 @@
 			(uuid "726c8bd4-d4c5-42cb-98d7-c38fc6c4e4a5")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C7")
 					(unit 1)
@@ -15083,7 +15535,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "LABLIB:R")
 		(at 241.3 134.62 270)
 		(unit 1)
 		(body_style 1)
@@ -15153,7 +15605,7 @@
 			(uuid "2a8d9727-a2a7-451d-af82-b911bad46b14")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "R17")
 					(unit 1)
@@ -15162,7 +15614,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "LABLIB:R")
 		(at 34.29 81.28 270)
 		(unit 1)
 		(body_style 1)
@@ -15232,7 +15684,7 @@
 			(uuid "f7090780-9e4a-4869-80eb-4bc7e7b30e95")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "R4")
 					(unit 1)
@@ -15309,7 +15761,7 @@
 			(uuid "9ac6ebe4-bb80-4d7c-9bb5-d2c0dc356798")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR016")
 					(unit 1)
@@ -15318,7 +15770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "LABLIB:R")
 		(at 241.3 132.08 270)
 		(unit 1)
 		(body_style 1)
@@ -15388,7 +15840,7 @@
 			(uuid "b46ed08b-05e3-40a4-96fa-b3f0b7210cf8")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "R18")
 					(unit 1)
@@ -15397,7 +15849,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 204.47 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -15469,7 +15921,7 @@
 			(uuid "520871c6-f77b-4738-bc6d-14957e85a9a9")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C8")
 					(unit 1)
@@ -15478,7 +15930,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "LABLIB:C")
 		(at 303.53 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -15551,7 +16003,7 @@
 			(uuid "ecff1401-21cc-45e4-ba6d-c2ed3794a6fe")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "C16")
 					(unit 1)
@@ -15629,7 +16081,7 @@
 			(uuid "253ddf0a-b0a6-4751-8b1f-53e4f04f9232")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR017")
 					(unit 1)
@@ -15707,7 +16159,7 @@
 			(uuid "23246080-4a49-492b-aed3-85517e51e3b8")
 		)
 		(instances
-			(project "kicad_demo_project"
+			(project "PROJECT_VD_KICAD"
 				(path "/fd6ef0b1-201f-4377-afd7-d57558236c20/91062a35-0f7c-41c7-b370-9fe4a63b1442"
 					(reference "#PWR013")
 					(unit 1)
